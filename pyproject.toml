@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "torch-graph-components"
+version = "0.1.0"
+description = "Fast GPU graph connected components and regularized merging with PyTorch"
+readme = "README.md"
+requires-python = ">=3.8,<3.14"
+license = { text = "MIT" }
+authors = [
+  { name = "Damien Robert" },
+  { name = "Louis Geist" },
+  { name = "Loic Landrieu" },
+]
+dependencies = []
+
+[project.optional-dependencies]
+pyg = ["torch-geometric"]
+torch-scatter = ["torch-scatter"]
+torch = ["torch>=2.0"]
+
+[project.urls]
+Homepage = "https://github.com/drprojects/torch-graph-components"
+Repository = "https://github.com/drprojects/torch-graph-components"
