@@ -2,8 +2,8 @@
 
 # torch-graph-components
 
-[![python](https://img.shields.io/badge/-Python-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![pytorch](https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
+[![python](https://img.shields.io/badge/-Python_3-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![pytorch](https://img.shields.io/badge/PyTorch_2-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
 [![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray)](https://opensource.org/license/mit)
 
 Official PyTorch implementation for the 
@@ -25,9 +25,9 @@ it means a lot to us !**
 
 ## 📌  Description
 
-`torch-graph-components` holds algorithms for fast, GPU-parallelized, 
-graph connected components and regularized component merging, 
-implemented in PyTorch.
+`torch-graph-components` holds algorithms for fast graph connected 
+components and graph partitioning, fully implemented in PyTorch with 
+GPU parallelization in mind.
 
 In particular, this project contains two main algorithms:
 - `wcc_by_max_propagation` for searching the 
