@@ -36,9 +36,11 @@ of a graph in pure PyTorch. We created this to avoid the reliance on
 [SciPy's CPU-based computation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csgraph.connected_components.html)
 found in many PyTorch projects.
 - `merge_components_by_contour_prior` for partitioning a graph based on 
-an energy minimization problem which we solve approximatively with a 
-greedy heuristic. Basically, this algorithm lets you find clusters
-in a graph based on two objectives:
+the generalized minimal partition problem (GMPP) 
+[[Landrieu & Obozinski 2017, SIIMS](https://dl.acm.org/doi/abs/10.1137/17m1113436)]
+which we solve approximatively with a greedy heuristic. 
+Basically, this algorithm clusters nodes of a graph based on two
+objectives:
   - compatibility between values carried by the nodes of a same component
   - complexity of contour of the components
 
