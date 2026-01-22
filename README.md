@@ -6,7 +6,7 @@
 [![pytorch](https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
 [![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray)](https://opensource.org/license/mit)
 
-Official implementation for the 
+Official PyTorch implementation for the 
 **graph components** and **graph partitioning algorithms**
 from
 <br>
