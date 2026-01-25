@@ -44,7 +44,11 @@ objectives:
   - compatibility between values carried by the nodes of a same component
   - complexity of contour of the components
 
-See our [paper](https://arxiv.org/abs/2512.00385) for more details.
+See our [paper](https://arxiv.org/abs/2512.00385) for more details. 
+For the official implementation of EZ-SP for superpoint-based semantic 
+tasks, see the 
+[Superpoint Transformer](https://github.com/drprojects/superpoint_transformer) 
+repository.
 
 <p align="center">
   <img width="50%" src="./media/merge_algorithm_teaser.png">
